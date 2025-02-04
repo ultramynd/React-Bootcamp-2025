@@ -1,23 +1,26 @@
-// Time Greeting Function
+//1
+// Time Greeting 
 function timeGreeting(userTime) { 
     let greetingMessage; 
 
     if (userTime >= 6 && userTime < 12) {
-        greetingMessage = "Rise and shine! Good morning! ☀️";
+        greetingMessage = "Good morning! ☀️";
     } 
     else if (userTime >= 12 && userTime < 18) {
-        greetingMessage = "Afternoon vibes! 🌤️";
+        greetingMessage = "Good afternoon! 🌤️";
     } 
     else if (userTime >= 18 && userTime < 24) {
-        greetingMessage = "Evening relaxation time! 🌙";
+        greetingMessage = "Good Evening! 🌙";
     } 
     else {
-        greetingMessage = "It's late! Get some rest! 😴";
+        greetingMessage = "It's nighttime! 😴";
     }
     return greetingMessage;
 }
 
-// Number Check Function
+
+//2
+// Check Number Function
 function checkNumber(num) {
     if (num > 0) {
         return "Positive";
@@ -28,14 +31,17 @@ function checkNumber(num) {
     }
 }
 
-// Test Cases (Console logs)
+
+
+
+
 console.log("Time Greeting Tests:");
 console.log("Test 1 (6 AM):", timeGreeting(6)); 
 console.log("Test 2 (15:00):", timeGreeting(15)); 
 console.log("Test 3 (23:30):", timeGreeting(23)); 
 console.log("Test 4 (3 AM):", timeGreeting(3));
 
-console.log("\nNumber Check Tests:");
+console.log("Number Check Tests:");
 console.log(checkNumber(5));   
 console.log(checkNumber(-3)); 
 console.log(checkNumber(0));
