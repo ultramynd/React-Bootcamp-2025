@@ -40,8 +40,3 @@ console.log("Test 1 (6 AM):", timeGreeting(6));
 console.log("Test 2 (15:00):", timeGreeting(15)); 
 console.log("Test 3 (23:30):", timeGreeting(23)); 
 console.log("Test 4 (3 AM):", timeGreeting(3));
-
-console.log("Number Check Tests:");
-console.log(checkNumber(5));   
-console.log(checkNumber(-3)); 
-console.log(checkNumber(0));
